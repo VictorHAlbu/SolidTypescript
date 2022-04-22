@@ -1,4 +1,4 @@
-export default class Item {
+export default abstract class Item {
   
   category: string;
   description: string;
@@ -11,5 +11,6 @@ export default class Item {
     this.price = price;
   }
 
+  abstract calculateTaxes() : number;
 
 }
