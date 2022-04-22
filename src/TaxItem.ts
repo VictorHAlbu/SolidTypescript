@@ -5,11 +5,11 @@ export default abstract class TaxItem extends Item {
     super(category, description, price)
   }
 
-  calculateTaxes() : number{
-    return this.price * this.getTax();
+  calculateTaxes(date: Date) : number{
+    return this.price * this.getTax(date);
   }
 
-  abstract getTax() : number;
+  abstract getTax(date: Date) : number;
 
   
 }
