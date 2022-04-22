@@ -5,7 +5,7 @@ export default class Water extends Item {
     super("Water", description, price);
   }
   
-  calculateTaxes(): number {
+  getTax(): number {
     return 0;
   }
 

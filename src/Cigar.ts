@@ -5,8 +5,8 @@ export default class Cigar extends Item {
     super("Cigar", description, price);
   }
   
-  calculateTaxes(): number {
-    return this.price * 0.2
+  getTax(): number {
+    return 0.2
   }
 
 }

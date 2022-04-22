@@ -5,8 +5,8 @@ export default class Beer extends Item {
     super("Beer", description, price);
   }
   
-  calculateTaxes(): number {
-    return this.price * 0.1
+  getTax(): number {
+    return  0.1
   }
 
 }
