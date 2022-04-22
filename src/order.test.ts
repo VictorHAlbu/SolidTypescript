@@ -1,6 +1,5 @@
 import Beer from "./Beer";
 import Cigar from "./Cigar";
-import Item from "./Item";
 import Order from "./Order";
 import Water from "./Water";
 
